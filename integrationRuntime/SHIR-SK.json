@@ -1,0 +1,7 @@
+{
+	"name": "SHIR-SK",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "used to connect to On-Prim SQL Server"
+	}
+}

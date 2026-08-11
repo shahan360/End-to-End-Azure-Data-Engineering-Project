@@ -1,0 +1,15 @@
+{
+	"name": "data-factory-demo-project-sk",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8f138647-6296-4a85-b6d0-0997e34d2f12",
+		"tenantId": "6497e6d4-bdfa-434d-96c9-d1ee3d3f53b9"
+	}
+}
