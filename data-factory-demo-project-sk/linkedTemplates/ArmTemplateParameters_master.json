@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "data-factory-demo-project-sk"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://projectadlsgen2demosk.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0810-033345-yubzfrmq"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://key-vault-demo-proj-sk.vault.azure.net/"
+		},
+		"onpremsqlserversk_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"onpremsqlserversk_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2017"
+		},
+		"onpremsqlserversk_properties_typeProperties_userName": {
+			"value": "test"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
