@@ -133,7 +133,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Shared/bronze_to_silver"
+					"notebookPath": "/live/bronze_to_silver"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
@@ -160,7 +160,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Shared/silver_to_gold"
+					"notebookPath": "/live/silver_to_gold"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
